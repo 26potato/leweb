@@ -1,5 +1,48 @@
-<html>
-  <body>
-    <h1>My AKA is Neo</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anywheel - บริการแชร์จักรยาน</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 20px; background-color: #f9f9f9; text-align: center; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1 { color: #2ecc71; }
+        .catalog { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; text-align: left; }
+        .item { border: 1px solid #ddd; padding: 15px; border-radius: 8px; background: #fff; }
+        .item h3 { margin: 0 0 10px 0; color: #333; }
+        .item p { margin: 0; color: #555; }
+        .btn { display: inline-block; padding: 12px 25px; background-color: #00c300; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; font-weight: bold; }
+        .btn:hover { background-color: #00a000; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 1. ส่วนหน้าแรก : ชื่อกิจการและ value proposition -->
+        <h1>Anywheel</h1>
+        <p>บริการจักรยานสาธารณะที่ให้คุณปั่นสนุก เดินทางสะดวก เป็นมิตรต่อสิ่งแวดล้อม ในราคาที่ทุกคนเข้าถึงได้</p>
+
+        <!-- 2. แคตตาล็อก : สินค้า/บริการ พร้อมชื่อและราคา -->
+        <h2>อัตราค่าบริการ</h2>
+        <div class="catalog">
+            <div class="item">
+                <h3>Pay per ride (จ่ายตามจริง)</h3>
+                <p>ราคา: 10 บาท / 30 นาทีแรก</p>
+            </div>
+            <div class="item">
+                <h3>Pass ระยะสั้น (1 วัน)</h3>
+                <p>ราคา: 50 บาท (ปั่นได้ไม่จำกัดเที่ยวภายใน 24 ชม.)</p>
+            </div>
+            <div class="item">
+                <h3>Pass ระยะยาว (30 วัน)</h3>
+                <p>ราคา: 200 บาท (ปั่นได้ไม่จำกัดเที่ยวตลอดเดือน)</p>
+            </div>
+        </div>
+
+        <!-- 3. กิจกรรมของลูกค้า : ช่องทางสั่งซื้อหรือติดต่อ -->
+        <h2>สมัครใช้งานเลย!</h2>
+        <p>ติดต่อสอบถามหรือแจ้งปัญหาการใช้งานได้ที่นี่</p>
+        <a href="https://line.me/th/" target="_blank" class="btn">ติดต่อผ่าน LINE OA</a>
+    </div>
+</body>
 </html>
